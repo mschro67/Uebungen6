@@ -19,7 +19,7 @@ public class h2_main{
         return result;
     }
     public static void main(String[] args){
-        int[] a={0,1,2,3},b={1,1,2,3};
+        int[] a={0,1,2,3},b={0,1,2,3};
         System.out.println("a: "+Arrays.toString(a)+"\nb: "+Arrays.toString(b)+"\ncomparearrays: "+compareArrays(a,b));
     }
 }

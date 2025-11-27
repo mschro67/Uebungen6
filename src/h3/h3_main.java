@@ -43,7 +43,7 @@ public class h3_main{
         return result;
     }
     public static void main(String[] args){
-        int[] a={3,0,2,1},b={0,1,2,3};
+        int[] a={3,0,2,1},b={1,0,2,3};
         System.out.println("a: "+ Arrays.toString(a)+"\nb: "+Arrays.toString(b)+"\ncomparearraysVal: "+compareArraysVal(a,b));
     }
 }
